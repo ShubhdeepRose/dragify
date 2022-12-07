@@ -55,7 +55,7 @@ inputBrowse.addEventListener("change", function(){
 // Extension Validate Functionality
 function extensionValidate(){
     let fileType = file.type;
-    mime = ["video/x-matroska","video/mp4"]
+    mime = ["video/x-matroska","video/mp4", "image/jpeg"]
     
 
     if(mime.includes(fileType)){
