@@ -16,7 +16,7 @@ Dark & Light theme : CSS custom properties are also referred to as CSS variables
 
 ## Demo
 
-**Link** : https://shubhdeeprose.github.io/overthrow
+**Link** : https://shubhdeeprose.github.io/dragify
 
 ![ProjectDemo](./images/demo.png)
 
