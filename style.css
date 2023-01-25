@@ -97,7 +97,6 @@ body{
 .drag-area .support{
     font-weight: 300;
     margin-top: 10px;
-    font-size: 0.rem;
 }
 
 .drag-area.active{
@@ -114,12 +113,29 @@ header .theme{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
     header .theme{
         justify-content: center;
         align-items: center;
         margin-right: 0;
         margin-top: 24px;
+    }
+    .wrapper{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .drag-area{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .drag-area{
+        height: 285px;
+    }
+
+    .drag-area .support{
+        font-size: small;
     }
 }
 
@@ -234,4 +250,3 @@ main{
 .dark button{
     background-color: var(--CP-DARK);
 }
-
